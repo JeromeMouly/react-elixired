@@ -16,3 +16,5 @@ window.onload = function() {
 
 
 // LocalStorage
+window.localStorage.setItem('pad', 'markdown');
+window.localStorage.getItem('pad');
