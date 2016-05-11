@@ -13,3 +13,6 @@ window.onload = function() {
 
     convertTextAreaToMarkdown();
 };
+
+
+// LocalStorage

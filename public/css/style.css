@@ -1,5 +1,6 @@
 html, body, section, .full-height {
     height: 100%;
+    background-color: #F6F6F6;
 } 
 
 #pad{
@@ -17,5 +18,34 @@ html, body, section, .full-height {
 
 #markdown {
     overflow: auto;
-    border-left: 1px solid black;
+    border-left: 4px solid rgba(10,60,150, 0.8);
+}
+
+.first-title {
+    text-align: center;
+    font-size: 6em;
+}
+
+.inset-text {
+    /* Shadows are visible under slightly transparent text color */
+    color: #fff;
+    text-shadow: 1px 1px 2px #F6F6F6;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(10,60,150, 0.8);
+    border-radius: 2px;
+    top: o;
+    height: 150px;
+}
+
+p {
+    border: none;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
